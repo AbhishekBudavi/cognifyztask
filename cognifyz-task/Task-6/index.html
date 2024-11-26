@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Four of HTML</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cognifyz Task Four for Internship</h1>
+    </header>
+    
+    <section>
+        <h2>About This Company</h2>
+        <p>Cognifyz Technologies provides software solutions, including data analytics, machine learning, and AI.</p>
+    </section>
+
+    <section>
+        <h2>Image of Company</h2>
+        <p>Below is a company image:</p>
+        <img src="C:\Users\Administrator\Desktop\cognifyz-task\Task-1\cognifyz_techonologies_logo.png" alt="logo">
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="6" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="errorMessage" style="color: red;"></p>
+    </section>
+
+    <button id="colorButton" style="margin: 20px; padding: 10px; font-size: 1em;">Change Background Color</button>
+
+    <footer>
+        <p>&copy; 2023 All rights reserved.</p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
